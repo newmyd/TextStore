@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>UpLoad TextStore</title>
+		<link rel="stylesheet" type="text/css" href="./upload.css" />
+		<script src="../main/jquery.js"></script>
+		<script src="./init.js"></script>
+		<script src="./ajax.js"></script>
+		<script src="./upload.js"></script>
+	</head>
+
+	<body>
+		<br />
+		<br />
+		<div class="text">
+			<a id="a" href="../index.html">TextStore</a>
+			<br />
+			UpLoad
+		</div>
+		<br />
+		<br />
+		<br />
+		<div id="upload_form">
+			<input type="text" id="txt" name="txt" placeholder="Text" class="input" /> <br /> <br />
+			<input type="password" id="password" name="password" placeholder="PassWord" class="input" /> <br /> <br />
+			<button class="submitInput" onclick="upload()">UpLoad</button> <br /> <br />
+			<div id="result">Please upload your file.</div>
+		</div>
+	</body>
+</html>
